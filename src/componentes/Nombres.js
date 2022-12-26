@@ -11,7 +11,7 @@ function Nombres(props) {
      axios.get("https://60dcb7a3c2b6280017febc27.mockapi.io/api/tabla/nombreApi")
           .then(res => {
              const data = res.data;
-             setValoresNombres(data.serie);
+             setValoresNombres(data);
              console.log(data);
           }); 
   }, [])

@@ -28,7 +28,7 @@ useEffect(()=>{
 },[])
 
  const options = {
-    
+ 
     grid: { top:20, bottom: 20, left: 40, right: 40 },
     
     xAxis: {
@@ -58,7 +58,7 @@ useEffect(()=>{
     <div>
      <ReactEcharts
       option={options}
-      style={{ marginLeft: "350px" ,width: "600px", height: "300px" }}/> 
+      style={{ marginTop:'20px', marginLeft: "350px" ,width: "600px", height: "300px" }}/> 
     </div>
   )
 }

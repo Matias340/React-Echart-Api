@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
 import BarEcharts from './componentes/BarEcharts';
+import DataFormatter from './componentes/DataFormatter';
+import PieEcharts from './componentes/PieEcharts';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>hola</h1>
         <BarEcharts />
+        <PieEcharts />
+        <DataFormatter />
     </div>
   );
 }
